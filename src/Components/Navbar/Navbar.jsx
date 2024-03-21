@@ -26,15 +26,23 @@ const Navbar = () => {
       <div className="container py-2">
         <div className="flex justify-between items-center gap-4">
             {/*Logo Section*/}
-            <div className="">
-                <a href='#' className='font-bold text-2xl sm:text-3xl flex justify-center items-center gap-2 tracking-wider font-cursive'>
+            <div data-aos="fade-down" data-aos-once="true">
+                <a 
+                    href='#' 
+                    className='font-bold text-2xl sm:text-3xl flex justify-center items-center gap-2 tracking-wider font-cursive'
+                >
                     <img src={Logo} alt="Logo" className='w-14'/>
                     Cafie Cafe
                 </a>
             </div>
            
             {/*Links Section*/}
-            <div className='flex justify-between items-center gap-4'>
+            <div 
+                data-aos="fade-down"
+                data-aos-once="true"
+                data-aos-delay="300"
+                className='flex justify-between items-center gap-4'
+            >
                 <ul className='hidden sm:flex items-center gap-4'>
                     {Menus.map((data, index) =>(
                         <li key={index}>
