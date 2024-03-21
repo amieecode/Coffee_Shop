@@ -22,6 +22,7 @@ const Menus = [
 
 const Navbar = () => {
   return (
+    
     <div className="bg-gradient-to-r from-secondary to-secondary/90 text-white">
       <div className="container py-2">
         <div className="flex justify-between items-center gap-4">
