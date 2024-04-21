@@ -1,8 +1,19 @@
-# React + Vite
+# Coffee Shop App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a coffee shop app built with React and Vite. It features a landing page with information about the coffee shop and its offerings.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Landing page with information about the coffee shop
+- Menu page displaying the available drinks and food items
+- Cart functionality for adding items to purchase
+- Checkout process for placing orders
+
+## Technologies Used
+
+- React
+- Vite
+- HTML
+- CSS (with Tailwind CSS for styling)
+- JavaScript
+
