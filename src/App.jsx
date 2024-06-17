@@ -8,6 +8,7 @@ import Banner from './Components/Banner/Banner';
 import AppStore from './Components/AppStore/AppStore';
 import Testimonial from './Components/Testimonial/Testimonial';
 import Footer from './Components/Footer/Footer';
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   useEffect(() => {
@@ -27,6 +28,7 @@ const App = () => {
         <AppStore /> 
         <Testimonial />
         <Footer />
+        <Analytics />
     </div>
   )
 }
